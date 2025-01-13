@@ -27,4 +27,4 @@ jobs:
         with:
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.MyToken }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
